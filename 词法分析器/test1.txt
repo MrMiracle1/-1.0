@@ -1,0 +1,20 @@
+//This is a correct program.
+
+void swap(int &a,int &b)
+{
+	/* The function is to swap the value of 
+		integer variable a and b*/ 
+	int tmp=a$;
+	a=b;
+	b=tmp;
+}
+
+int main()
+{
+	int a=4;
+	int b=6;
+	printf("a=%d, b=%d\n",a,b);
+	swap(a,b);
+	printf("a=%d, b=%d\n",a,b);
+	return 0;
+}
